@@ -25,4 +25,8 @@ class Movie {
     }
 }
 
+$Movie = new Movie ('Tre uomini e una gamba', 'Tre uomini con una gamba di legno', 'Aldo, Giovanni e Giacomo e Massimo Venier');
+var_dump($Movie);
+$Movie2 = new Movie ('Fantozzi', 'Un povero ragioniere ne subisce di tutti i colori', 'Luciano Salce');
+var_dump($Movie)
 ?>
